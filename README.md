@@ -6,7 +6,7 @@
   [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
   [![codecov](https://codecov.io/gh/ballerina-platform/ballerina-lang/branch/master/graph/badge.svg)](https://codecov.io/gh/ballerina-platform/ballerina-lang)
   ![Twitter Follow](https://img.shields.io/twitter/follow/ballerinalang?style=social)
-
+[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/summary/new_code?id=sahanhe-test_ballerina-lang)
 # The Ballerina programming language
 
 [Ballerina](https://ballerina.io/) is a statically typed, open-source cloud-native programming language developed
