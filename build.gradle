@@ -8,7 +8,9 @@ plugins {
     id 'net.researchgate.release' version '2.6.0'
     id 'jacoco'
     id "org.sonarqube" version "3.3"
-    }
+
+}
+
 
 apply from: "$rootDir/gradle/repositories.gradle"
 
@@ -126,12 +128,11 @@ task createCodeCoverageReport(type: JacocoReport) {
     }
 }
 
-
 sonarqube {
   properties {
     property "sonar.sourceEncoding", "UTF-8"
-    property "sonar.projectKey", "sahanhe-test_ballerina-lang"
-    property "sonar.organization", "sahanhe-test"
+    property "sonar.projectKey", "sahanhe-test2_ballerina-lang"
+    property "sonar.organization", "sahanhe-test2"
     property "sonar.host.url", "https://sonarcloud.io"
   }
 }
